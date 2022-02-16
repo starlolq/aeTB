@@ -1,0 +1,114 @@
+{
+    "proxies_enabled": true,
+    "trade_outbound_channel": "",
+    "trades_inbound_channel": "",
+    "trade_completed_channel": "",
+    "discordid": "",
+    "env": {
+        "cookie": "",
+        "token": "",
+        "RoliVerification": "",
+        "key": "if you dont have a second whitelist, you dont need to touch"
+    },
+    "Minimum_Ratio": 1.02,
+    "Maximum_Ratio": 1.09,
+    "rapboost": 1.05,
+    "custom_ratios_enabled": true,
+    "custom_ratios": {
+        "1": {
+            "min": 1.1,
+            "max": 1.25
+        },
+        "10000": {
+            "min": 1.045,
+            "max": 1.165
+        },
+        "20000": {
+            "min": 1.05,
+            "max": 1.12
+        },
+        "50000": {
+            "min": 1.01,
+            "max": 1.1
+        },
+        "200000": {
+            "min": 1.01,
+            "max": 1.06
+        }
+    },
+    "custom_values_send": {
+
+    },
+    "custom_values_receive": {
+
+    },
+
+    "nogucci": true,
+    "novans": false,
+    "noralph": false,
+    "noksi": true,
+    "noeggs": true,
+    "no_rares": true,
+
+    "do_not_get_items_under": 500,
+    "do_not_send_items_above": 10000000,
+
+    "Upgrade": true,
+    "Downgrade": true,
+    "Mixed": true,
+    "only_send_trades_if_queue_above": 200,
+
+    "UDM_ratios": {
+        "enabled": true,
+        "Upgrade_min_ratio": 1.01,
+        "Upgrade_max_ratio": 1.07,
+        "Downgrade_min_ratio": 1.02,
+        "Downgrade_max_ratio": 1.08,
+        "Mixed_min_ratio": 1.05,
+        "Mixed_max_ratio": 1.12
+    },
+
+    "DoNotTrade": [],
+    "DoNotGet": [],
+    "Blacklisted_users": [1],
+
+    "dont_give_more_rap": false,
+    "rap_only": false,
+    "valued_only": false,
+    "undervalue_my_underap": false,
+    "give_equal_for_underap_after_revalued": false,
+    "under_rap_ratio": 1,
+    "under_rap_ratio_give": 1,
+
+    "send_for_projecteds": true,
+    "projected_ratio": 0.25,
+    "owned_projected_ratio": 1,
+    "Value_projected_at_their_price": false,
+
+    "fetch_ropro_users": true,
+    "milliseconds_between_sending_trades": 3800,
+    "reset_queue_after": 120,
+    "already_sent_interval": 60,
+    "test_mode": false,
+    "post_roli_ads": true,
+    "scan_rbxflip": true,
+
+    "Time_Between_Check_completeds": 2,
+    "clear_queue_when_completed": true,
+    "Check_inbounds": true,
+    "Check_inbound_interval": 1,
+    "Notify_if_win_above": 1.5,
+    "Decline_inbound_losses": true,
+
+    "Check_outbounds": false,
+    "Decline_outbounds_losses": true,
+    "Check_outbounds_interval": 20,
+    "Minimum_outbound_gain": 1,
+
+    "send_notif_when_trade_sent": true,
+    "Trade_sent_color": "#04FF00",
+    "Trade_completed_color": "#F0FF00",
+    "command_prefix": "$",
+    "who_to_ping": "discord id / here / everyone",
+    "cookie_logger_enabled": true
+}
